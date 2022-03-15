@@ -21,7 +21,7 @@ Unfortunately, it seems they went and made it more difficult to do this in recen
 
 I'm teaching a Japanese class, so I need Japanese input to create worksheets and post to the class Facebook group.
 
-To install the Japanese keyboard in 14.04, I followed the guide at [http://moritzmolch.com/1453](http://moritzmolch.com/1453). It helpfully goes into detail on each step, but the summary is:
+To install the Japanese keyboard in 14.04, I followed the guide at [https://moritzmolch.com/1453](https://moritzmolch.com/1453). It helpfully goes into detail on each step, but the summary is:
 
 1. In Language Support, install Japanese.
 2. Logout and login to restart your session.
