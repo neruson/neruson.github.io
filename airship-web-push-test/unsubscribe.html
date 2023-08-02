@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Custom unsubscribe page</title>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const params = {
+          ua_unsubscribe_token: new URLSearchParams(window.location.search).get("ua_unsubscribe_token"),
+          ua_redirect: "https://example.com/confirmation.html"
+        };
+        document.getElementById("unsubscribe").href =
+            "https://asemailmgmtus.com/api/channels/email/custom-unsubscribe/?" +
+            new URLSearchParams(params).toString();
+      });
+    </script>
+  </head>
+  <body>
+    <a id="unsubscribe">Unsubscribe</a>
+  </body>
+</html>
